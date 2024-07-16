@@ -1,0 +1,181 @@
+/* General styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('path/to/your/background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(106, 90, 205, 0.8); /* Add semi-transparent background */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    background: url('path/to/your/header-background-image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #6a5acd;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(70, 130, 180, 0.8);
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(95, 158, 160, 0.8);
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #6a5acd;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #6a5acd;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #5f9ea0;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(106, 90, 205, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    nav ul li a {
+        padding: 1rem;
+        display: block;
+    }
+
+    main {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        margin: 0.2rem 0;
+    }
+
+    nav ul li a {
+        padding: 0.5rem;
+    }
+
+    main {
+        padding: 0.5rem;
+        margin: 0.2rem;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+}
